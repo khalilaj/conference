@@ -119,7 +119,7 @@ REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
 }
 
-CORS_ORIGIN_WHITELIST = ("localhost:3000", "127.0.0.1:3000",
+CORS_ORIGIN_WHITELIST = ("http://localhost","localhost","localhost:3000", "127.0.0.1:3000",
                          "http://localhost:8100", "localhost:8100" ,
                          "https://q-sbs-conference.herokuapp.com",
                          "q-sbs-conference.herokuapp.com")
